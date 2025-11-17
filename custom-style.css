@@ -12,7 +12,7 @@
     backdrop-filter: blur(5px);
 }
 
-.trusted-bg{
+.trusted-bg {
     background: var(--secondary);
     padding-block: 30px;
 }
@@ -96,53 +96,55 @@
 
 
 table {
-  border-collapse: collapse;
-  width: 100%;
-  background-color: #ffffff;
-  padding: 10px;
-  border-radius: 6px;
-  border: 5px solid #dddddd;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    border: 5px solid #dddddd;
 }
 
-td{
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 14px;
-  
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 14px;
+
 }
 
-th{
+th {
     /* background-color: var(--primary); */
     border: 1px solid #dddddd;
-  text-align: left;
-  padding: 14px;
+    text-align: left;
+    padding: 14px;
 }
 
 tr:nth-child(even) {
-  background-color: #ffffff;
-} 
+    background-color: #ffffff;
+}
 
-.more { display: none; }
+.more {
+    display: none;
+}
 
 
 .table-container {
-	width: 100%;
-	position: relative;
-	background: var(--white);
-	overflow-x: auto;
+    width: 100%;
+    position: relative;
+    background: var(--white);
+    overflow-x: auto;
 }
 
 .table-container table {
-	width: 100%;
-	border-collapse: collapse;
-	min-width: 600px;
-	border: 1px solid #C3C3C3;
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+    border: 1px solid #C3C3C3;
 }
 
 .table-container table thead th {
-	/* text-align: left; */
+    /* text-align: left; */
     width: 20%;
-	padding: 30px 15px;
+    padding: 30px 15px;
 }
 
 .sc-flex-btn {
@@ -153,18 +155,18 @@ tr:nth-child(even) {
     font-weight: 500;
 }
 
-.plan-btn{
+.plan-btn {
     margin-top: 20px;
 }
 
-.plan-heading{
+.plan-heading {
     font-size: 25px;
     background-color: var(--secondary);
     color: white;
     text-align: center;
 }
 
-.plan-text{
+.plan-text {
     font-size: 22px;
     color: var(--secondary);
 }
@@ -209,7 +211,7 @@ tr:nth-child(even) {
 
 .info-tab.active {
     background: var(--primary);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     color: white;
     font-weight: 600;
 }
@@ -219,7 +221,7 @@ tr:nth-child(even) {
     background: #fff;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
 }
 
 .info-tab-content {
@@ -230,8 +232,13 @@ tr:nth-child(even) {
     display: block;
 }
 
+.dm-logo{
+    background-color: #ffffff;
+    padding: 20px 30px;
+}
+
 /* Mobile Responsive */
-@media(max-width:768px){
+@media(max-width:768px) {
     .info-tabs-container {
         flex-direction: column;
     }
@@ -245,6 +252,3 @@ tr:nth-child(even) {
         white-space: nowrap;
     }
 }
-
-
-
