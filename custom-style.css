@@ -3,13 +3,18 @@
 }
 
 .hero-stats {
-    border: 1px solid rgba(255, 255, 255, 0.603);
-    padding: 10px 20px;
+    /* border: 1px solid rgba(255, 255, 255, 0.603); */
+    padding: 20px 20px;
     height: 100%;
     border-radius: 5px;
     gap: 10px;
     background-color: rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(5px);
+}
+
+.trusted-bg{
+    background: var(--secondary);
+    padding-block: 30px;
 }
 
 .trusted {
@@ -114,7 +119,132 @@ th{
 }
 
 tr:nth-child(even) {
-  background-color: #ffefeb;
-}
+  background-color: #ffffff;
+} 
 
 .more { display: none; }
+
+
+.table-container {
+	width: 100%;
+	position: relative;
+	background: var(--white);
+	overflow-x: auto;
+}
+
+.table-container table {
+	width: 100%;
+	border-collapse: collapse;
+	min-width: 600px;
+	border: 1px solid #C3C3C3;
+}
+
+.table-container table thead th {
+	/* text-align: left; */
+    width: 20%;
+	padding: 30px 15px;
+}
+
+.sc-flex-btn {
+    background: var(--primary);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.plan-btn{
+    margin-top: 20px;
+}
+
+.plan-heading{
+    font-size: 25px;
+    background-color: var(--secondary);
+    color: white;
+    text-align: center;
+}
+
+.plan-text{
+    font-size: 22px;
+    color: var(--secondary);
+}
+
+.custom-table table tbody th {
+    text-align: left;
+    padding: 15px 25px;
+    background-color: #ffefeb;
+    border-top: 1px solid #C3C3C3;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+.info-tabs-container {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.info-tabs-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 220px;
+}
+
+.info-tab {
+    padding: 12px 15px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    color: #333;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.info-tab.active {
+    background: var(--primary);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    color: white;
+    font-weight: 600;
+}
+
+.info-tabs-content {
+    flex: 1;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+}
+
+.info-tab-content {
+    display: none;
+}
+
+.info-tab-content.active {
+    display: block;
+}
+
+/* Mobile Responsive */
+@media(max-width:768px){
+    .info-tabs-container {
+        flex-direction: column;
+    }
+
+    .info-tabs-menu {
+        flex-direction: row;
+        overflow-x: auto;
+    }
+
+    .info-tab {
+        white-space: nowrap;
+    }
+}
+
+
+

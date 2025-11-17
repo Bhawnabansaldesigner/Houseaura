@@ -130,6 +130,12 @@ p {
     color: #fff!important
 }
 
+.text-light{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
 img,svg {
     vertical-align: middle
 }
@@ -306,10 +312,10 @@ nav ul li a {
 }
 
 .hero {
-    background: linear-gradient(360deg, #00000070 0%, #00000038 35%, #062c4600 100%), url(http://houseura.com/wp-content/uploads/2025/05/topbanner.webp) no-repeat 50% / cover;
+    background: linear-gradient(179deg, #00000070 0%, #00000038 35%, #ffffff00 100%), url(http://houseura.com/wp-content/uploads/2025/05/topbanner.webp) no-repeat 50% / cover;
     display: grid;
-    height: 600px;
-    position: relative
+    /* height: 600px; */
+    position: relative;
 }
 
 .hero-content {
@@ -1139,7 +1145,8 @@ textarea {
 .about-content {
     background: var(--white);
     padding: 50px;
-    position: relative
+    position: relative;
+    border-radius: 10px;
 }
 
 .ab-bg .primary-btn {
@@ -1223,7 +1230,8 @@ textarea {
 }
 
 .project-list li:before {
-    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' fill='%2364aa44' viewBox='0 0 448 512'%3E%3Cpath d='M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z'/%3E%3C/svg%3E") no-repeat 50%;
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' fill='%23F04B22' viewBox='0 0 448 512'%3E%3Cpath d='M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z'/%3E%3C/svg%3E") no-repeat 50%;
+
     content: "";
     height: 15px;
     left: 0;
@@ -1427,7 +1435,7 @@ textarea {
 }
 
 .accordions {
-    gap: 20px
+    /* gap: 20px */
 }
 
 .accordions summary {
