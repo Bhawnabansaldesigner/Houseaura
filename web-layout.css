@@ -1455,8 +1455,8 @@ textarea {
 }
 
 .accordions details .content {
-    margin-top: 15px;
-    padding: 40px;
+    /* margin-top: 15px; */
+    padding: 20px;
     position: relative;
     width: 100%;
 }
