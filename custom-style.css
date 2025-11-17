@@ -237,6 +237,8 @@ tr:nth-child(even) {
     padding: 20px 30px;
 }
 
+.btn.d-flexx { gap: 15px; }
+
 /* Mobile Responsive */
 @media(max-width:768px) {
     .info-tabs-container {
