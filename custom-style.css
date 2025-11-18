@@ -153,7 +153,7 @@ tr:nth-child(even) {
     color: white;
     padding: 10px 20px;
     border-radius: 4px;
-    font-weight: 500; 
+    font-weight: 500;
     white-space: nowrap
 }
 
@@ -234,12 +234,79 @@ tr:nth-child(even) {
     display: block;
 }
 
-.dm-logo{
+.dm-logo {
     background-color: #ffffff;
     padding: 20px 30px;
 }
 
-.btn.d-flexx { gap: 15px; }
+.btn.d-flexx {
+    gap: 15px;
+}
+
+
+/* marquee animation start */
+.partner-sec .scroller {
+    position: relative;
+}
+
+.partner-sec .scroller::before,
+.partner-sec .scroller::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 50px;
+    background: red;
+    z-index: 1;
+
+}
+
+.partner-sec .scroller::before {
+    left: 0;
+    background: linear-gradient(90deg, rgb(255 255 255) 0%, rgb(255 255 255 / 61%) 50%, rgb(255 255 255 / 0%) 100%);
+}
+
+.partner-sec .scroller::after {
+    right: 0;
+    top: 0;
+    background: linear-gradient(90deg, rgb(255 255 255 / 0%) 0%, rgb(255 255 255) 50%, rgb(255 255 255) 100%);
+
+}
+.logo-slider img {
+  height: 35px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+.logo-slider img:hover {
+  filter: grayscale(0%);
+}
+
+/* Slider container */
+.slider {
+  height: 70px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Track */
+.slide-track {
+  display: flex;
+  width: calc(250px * 12); /* 12 = number of logos (6 × 2) */
+  animation: scroll 30s linear infinite;
+}
+
+/* Single slide */
+.slide {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-250px * 6)); }
+}
 
 /* Mobile Responsive */
 @media(max-width:1024px) {
