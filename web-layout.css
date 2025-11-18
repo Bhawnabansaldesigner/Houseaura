@@ -2089,7 +2089,7 @@ textarea {
     }
 
     section {
-        margin-top: 40px
+        /* margin-top: 40px */
     }
 
     .bg-py .primary-btn {
@@ -2111,7 +2111,8 @@ textarea {
     }
 
     .bg-lighty {
-        padding-block:40px}
+        /* padding-block:40px; */
+    }
 
     .creative-crd-content {
         padding-inline:10px}
