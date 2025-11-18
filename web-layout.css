@@ -316,6 +316,7 @@ nav ul li a {
     display: grid;
     /* height: 600px; */
     position: relative;
+    background-position: left;
 }
 
 .hero-content {
@@ -1247,6 +1248,15 @@ textarea {
 .h-m {
     height: 270px
 }
+
+.w-100 {
+    width: 100%;
+}
+
+.border-radius-8 {
+    border-radius: 8px
+}
+
 
 .h-l,.h-m {
     object-fit: cover

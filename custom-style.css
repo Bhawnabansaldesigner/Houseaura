@@ -10,6 +10,7 @@
     gap: 10px;
     background-color: rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(5px);
+    background-posiotion-x: right;
 }
 
 .trusted-bg {
@@ -144,7 +145,7 @@ tr:nth-child(even) {
 .table-container table thead th {
     /* text-align: left; */
     width: 20%;
-    padding: 30px 15px;
+    padding: 30px 40px;
 }
 
 .sc-flex-btn {
@@ -152,7 +153,8 @@ tr:nth-child(even) {
     color: white;
     padding: 10px 20px;
     border-radius: 4px;
-    font-weight: 500;
+    font-weight: 500; 
+    white-space: nowrap
 }
 
 .plan-btn {
@@ -186,7 +188,7 @@ tr:nth-child(even) {
 .info-tabs-container {
     display: flex;
     gap: 30px;
-    padding: 30px;
+    /* padding: 30px; */
     border-radius: 12px;
 }
 
@@ -240,7 +242,7 @@ tr:nth-child(even) {
 .btn.d-flexx { gap: 15px; }
 
 /* Mobile Responsive */
-@media(max-width:768px) {
+@media(max-width:1024px) {
     .info-tabs-container {
         flex-direction: column;
     }
