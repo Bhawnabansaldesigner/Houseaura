@@ -273,9 +273,9 @@ tr:nth-child(even) {
 }
 
 .logo-slider img {
-    height: 35px;
-    object-fit: contain;
-    filter: grayscale(100%);
+    height: 100px;
+    /* object-fit: contain; */
+    /* filter: grayscale(100%); */
     transition: 0.3s;
 }
 
@@ -285,9 +285,10 @@ tr:nth-child(even) {
 
 /* Slider container */
 .slider {
-    height: 70px;
+    height: 100px;
     overflow: hidden;
     position: relative;
+    
 }
 
 /* Track */
