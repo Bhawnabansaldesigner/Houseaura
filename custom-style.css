@@ -220,10 +220,10 @@ tr:nth-child(even) {
 
 .info-tabs-content {
     flex: 1;
-    background: #fff;
+    background: #f5f5f5;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07); */
 }
 
 .info-tab-content {
