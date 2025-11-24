@@ -620,6 +620,11 @@ nav ul li a {
     margin-top: 20px
 }
 
+.card-heading{
+    font-weight: 600;
+    font-size: 18px;
+}
+
 .clients-name,
 .flex-cl {
     align-items: center;
@@ -632,6 +637,13 @@ nav ul li a {
     margin: auto;
     text-align: center;
     width: 60%
+}
+
+.review-rating{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .clients-name>div {
@@ -2297,7 +2309,7 @@ h3{
 
     .h2,
     h2 {
-        font-size: 29px !important
+        font-size: 25px !important
     }
 
     .h3,
@@ -2326,6 +2338,10 @@ h3{
 
     .single-pg:before {
         display: none
+    }
+
+    .blog-details p{
+        margin-bottom: 0px;
     }
 
     .toc-mobile {

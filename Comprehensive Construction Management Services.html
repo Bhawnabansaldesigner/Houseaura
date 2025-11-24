@@ -243,6 +243,7 @@
     </style>
     <link rel="stylesheet" href="web-layout.css">
     <link rel="stylesheet" href="web-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <!-- <link rel='stylesheet' id='bwe-service-css' href='https://houseura.com/wp-content/themes/bwe-service/min/frontend/css/minified/style.min.986cb04cc6cd8d9c4beb.css' media='all' /> -->
     <script src="https://houseura.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
     <script src="https://houseura.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
@@ -381,7 +382,7 @@
     <!-- Custom Hero for page -->
 
     <div class="wp-block-create-block-bwe-addons-container hero hero "
-        style="background: url('assets/imgs/Residential Construction Service.png') no-repeat center/cover;">
+        style="background: url('assets/imgs/Residential Construction Service.webp') no-repeat center/cover;">
         <div class="wp-block-create-block-bwe-addons-container container">
             <div class="wp-block-create-block-bwe-addons-container row row-gap">
 
@@ -573,7 +574,7 @@
                         <div class="trusted d-flex gap-2">
 
                             <div class="trusted-icon  ">
-                                <img decoding="async" src="assets/imgs/fix cost.png" alt="urban" class="img-fluid">
+                                <img decoding="async" src="assets/imgs/fix cost.svg" alt="urban" class="img-fluid">
                             </div>
 
                             <div class="trusted-content">
@@ -588,7 +589,7 @@
                         <div class="trusted d-flexx gap-2">
 
                             <div class="trusted-icon  ">
-                                <img decoding="async" src="assets/imgs/on-time.png" alt="urban" class="img-fluid">
+                                <img decoding="async" src="assets/imgs/on-time.svg" alt="urban" class="img-fluid">
                             </div>
 
                             <div class="trusted-content">
@@ -603,7 +604,7 @@
                         <div class="trusted d-flexx gap-2">
 
                             <div class="trusted-icon  ">
-                                <img decoding="async" src="assets/imgs/warranty.png" alt="urban" class="img-fluid">
+                                <img decoding="async" src="assets/imgs/warranty.svg" alt="urban" class="img-fluid">
                             </div>
 
                             <div class="trusted-content">
@@ -623,15 +624,24 @@
         <section class="section pb">
             <div class="container">
                 <div class="row row-gap">
-                    <div class="col-lg-5 order-md">
-                        <div class="about-us-img">
-                            <img decoding="async" src="assets/imgs/about-img.png" alt="aboutus" class="img-fluid">
+                    <div class="col-lg-5 col-md-12 order-md">
+                        <div class="experience-section">
+                            <div class="exp-wrapper">
 
-                            <!-- <div class="success">
-                                <div class="succes-heading">5+</div>
-                                <p class="mb-0"><span class="text-white">Years</span> of successful work</p>
-                            </div> -->
+                                <div class="exp-text align-items-center">
+                                    <span class="gap-2">15+</span>
+                                    <h4 class="mb-0"> Years of Experience</h4>
+                                </div>
 
+                                <div class="img-box img-1">
+                                    <img src="assets/imgs/New Home Construction.webp" alt="Building">
+                                </div>
+
+                                <div class="img-box img-2">
+                                    <img src="assets/imgs/Office & Corporate.webp" alt="Construction Team">
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -677,22 +687,94 @@
 
         <!-- Our Professional -->
 
-        <section class="bg-img ptb60">
+        <section class="bg-lighty ptb60">
             <div class="container">
 
 
                 <div>
-                    <div class="main-heading">Professional Commercial Construction Expertise</div>
+                    <div class="h2 text-center">Professional Commercial Construction Expertise</div>
 
-                    <p>Our vision and work ethics strictly comply with the ever-forwarding vision, allowing us to forge
+                    <p class="text-center">Our vision and work ethics strictly comply with the ever-forwarding vision, allowing us to forge
                         evolving and lasting commercial projects. At Houseura, we are equipped with a team of
                         experienced and professional commercial construction contractors, taking the leap towards modern
-                        and innovative structural excellence. </p>
-
-                    <p>Designed in such a manner that it allows our workforce to navigate through uncharted dimensions
+                        and innovative structural excellence.Designed in such a manner that it allows our workforce to navigate through uncharted dimensions
                         and strive towards excellence. Professionalism in our design is not just a benchmark, but a
                         dedication to building reliable and sustainable infrastructure through our commercial
-                        construction services.</p>
+                        construction services. </p>
+
+                    <p class="">The true representation of our professional approach dwells in:</p>
+
+                </div>
+
+                <div class="row row-gap mt-5">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="benifit-card">
+                            <div class="flexx-wcu-col align-items-center gap-2">
+                                <span class="wcu-icon">
+                                    <img decoding="async" src="assets/imgs/Adaptive Solutions.svg" class="img-fluid" alt="Adaptive Solutions">
+                                </span>
+                                <div class="h3 m-0">Adaptive Solutions</div>
+                            </div>
+                            <p>Providing an adaptable and responsive solution that allows our team to tackle uncertainty and hindrances.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="benifit-card">
+                            <div class="flexx-wcu-col align-items-center gap-2">
+                                <span class="wcu-icon">
+                                    <img decoding="async" src="assets/imgs/Tailored Expertise.svg" class="img-fluid" alt="Tailored Expertise">
+                                </span>
+                                <div class="h3 m-0">Tailored Expertise</div>
+                            </div>
+                            <p>We are experts in providing tailored and seamless fit solutions to bring out the proficient nature.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="benifit-card">
+                            <div class="flexx-wcu-col align-items-center gap-2">
+                                <span class="wcu-icon">
+                                    <img decoding="async" src="assets/imgs/Strict Standards.svg" class="img-fluid" alt="Strict Standards">
+                                </span>
+                                <div class="h3 m-0">Strict Standards</div>
+                            </div>
+                            <p>From designing to handing over, each step is accompanied by a strict code of conduct to ensure accountability and maintain high standards.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="benifit-card">
+                            <div class="flexx-wcu-col align-items-center gap-2">
+                                <span class="wcu-icon">
+                                    <img decoding="async" src="assets/imgs/Focused Service.svg" alt="Focused Service" class="img-fluid">
+                                </span>
+                                <div class="h3 m-0">Focused Service</div>
+                            </div>
+                            <p>Houseura provides unwavering focus and service for businesses compared to other commercial construction companies. Our commercial building contractors know how to convert a space into a functional, occupied workspace.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="benifit-card">
+                            <div class="flexx-wcu-col align-items-center gap-2">
+                                <span class="wcu-icon">
+                                    <img decoding="async" src="assets/imgs/Safety First.svg" class="img-fluid" alt="Safety First">
+                                </span>
+                                <div class="h3 m-0">Safety First</div>
+                            </div>
+                            <p>Other commercial construction agency fails to address issues like energy efficiency, safe and dry workspace, air quality, and fire safety. At Houseura, all of these are critical elements that we integrate into our project that make the infrastructure safe.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="benifit-card">
+                            <div class="flexx-wcu-col align-items-center gap-2">
+                                <span class="wcu-icon">
+                                    <img decoding="async" src="assets/imgs/Modern Engineering.svg" class="img-fluid" alt="Modern Engineering">
+                                </span>
+                                <div class="h3 m-0">Modern Engineering</div>
+                            </div>
+                            <p>Our engineers are committed and stay up to date with the modern science of building. From the quality of materials we outsource to the methods we employ, we remain unbiased and choose what fits best for delivering exceptional commercial construction services.</p>
+                        </div>
+                    </div>
+                    
 
                 </div>
             </div>
@@ -797,7 +879,7 @@
                                         productive workspace. With our craftsmanship, your dream is a reality.</p>
                                 </div>
                                 <div class="col-lg-5">
-                                    <img src="assets/imgs/Office & Corporate.png" class="img-fluid border-radius-8"
+                                    <img src="assets/imgs/Office & Corporate.webp" class="img-fluid border-radius-8"
                                         alt="">
                                 </div>
                             </div>
@@ -813,7 +895,7 @@
                                 </div>
 
                                 <div class="col-lg-5">
-                                    <img src="assets/imgs/Retail & Shopping Complex.png"
+                                    <img src="assets/imgs/Retail & Shopping Complex.webp"
                                         class="img-fluid border-radius-8" alt="">
                                 </div>
                             </div>
@@ -828,7 +910,7 @@
                                 </div>
 
                                 <div class="col-lg-5">
-                                    <img src="assets/imgs/Industrial & Manufacturing Units.png"
+                                    <img src="assets/imgs/Industrial & Manufacturing Units.webp"
                                         class="img-fluid border-radius-8" alt="">
                                 </div>
                             </div>
@@ -844,7 +926,7 @@
                                 </div>
 
                                 <div class="col-lg-5">
-                                    <img src="assets/imgs/Hospitals.png" class="img-fluid border-radius-8" alt="">
+                                    <img src="assets/imgs/Hospitals.webp" class="img-fluid border-radius-8" alt="">
                                 </div>
                             </div>
                         </div>
@@ -860,7 +942,7 @@
                                 </div>
 
                                 <div class="col-lg-5">
-                                    <img src="assets/imgs/Management & Consultation.png"
+                                    <img src="assets/imgs/Management & Consultation.webp"
                                         class="img-fluid border-radius-8" alt="">
                                 </div>
                             </div>
@@ -954,7 +1036,7 @@
                             </p>
                             <button class="primary-btn" type="submit">Send Message</button>
                             <div class="pt">
-                                <img src="assets/imgs/why choose.png" width="99%" alt="">
+                                <!-- <img src="assets/imgs/why choose.webp" width="99%" alt=""> -->
                             </div>
                         </div>
                     </div>
@@ -966,10 +1048,10 @@
                                 <div class="benifit-card">
                                     <div class="flexx-wcu-col align-items-center gap-2">
                                         <span class="wcu-icon">
-                                            <img decoding="async" src="assets/imgs/Timely Delivery.png"
+                                            <img decoding="async" src="assets/imgs/Timely Delivery.svg"
                                                 class="img-fluid" alt="Experience and Expertise">
                                         </span>
-                                        <div class="h4 m-0">On-Time Delivery</div>
+                                        <div class="h3 m-0">On-Time Delivery</div>
                                     </div>
                                     <p>We have a positive track record of handing over the construction projects within
                                         the given timeframe. Thanks to our systematic workflow, we minimize wastage and
@@ -982,10 +1064,10 @@
                                 <div class="benifit-card">
                                     <div class="flexx-wcu-col align-items-center  gap-2">
                                         <span class="wcu-icon">
-                                            <img decoding="async" src="assets/imgs/Expert Team.png" class="img-fluid"
+                                            <img decoding="async" src="assets/imgs/Expert Team.svg" class="img-fluid"
                                                 alt="Experience and Expertise">
                                         </span>
-                                        <div class="h4 m-0">Team of Expert Minds</div>
+                                        <div class="h3 m-0">Team of Expert Minds</div>
                                     </div>
                                     <p>Houseura is equipped with a team of the experienced and sharpest minds in the
                                         industry. Every project is handled with care, precision, and full control over
@@ -998,10 +1080,10 @@
                                 <div class="benifit-card">
                                     <div class="flexx-wcu-col align-items-center  gap-2">
                                         <span class="wcu-icon">
-                                            <img decoding="async" src="assets/imgs/Strategic Approach.png"
+                                            <img decoding="async" src="assets/imgs/Strategic Approach.svg"
                                                 class="img-fluid" alt="Experience and Expertise">
                                         </span>
-                                        <div class="h4 m-0">Strategic Approach</div>
+                                        <div class="h3 m-0">Strategic Approach</div>
                                     </div>
                                     <p>Our optimized approach is developed in such a manner that every phase and
                                         execution is done with technical analysis. This helps us to identify potential
@@ -1014,10 +1096,10 @@
                                 <div class="benifit-card">
                                     <div class="flexx-wcu-col align-items-center gap-2">
                                         <span class="wcu-icon">
-                                            <img decoding="async" src="assets/imgs/High Quality Material.png"
+                                            <img decoding="async" src="assets/imgs/High Quality Material.svg"
                                                 class="img-fluid" alt="Experience and Expertise">
                                         </span>
-                                        <div class="h4 m-0">Customer Satisfaction</div>
+                                        <div class="h3 m-0">Customer Satisfaction</div>
                                     </div>
                                     <p>At the core of our work lies customer satisfaction. Through our commitment to
                                         quality and reliability in commercial construction services, we ensure every
@@ -1029,10 +1111,10 @@
                                 <div class="benifit-card">
                                     <div class="flexx-wcu-col align-items-center gap-2">
                                         <span class="wcu-icon">
-                                            <img decoding="async" src="assets/imgs/Complete Makeover.png"
+                                            <img decoding="async" src="assets/imgs/Complete Makeover.svg"
                                                 class="img-fluid" alt="Experience and Expertise">
                                         </span>
-                                        <div class="h4 m-0">No Cutting Corners</div>
+                                        <div class="h3 m-0">No Cutting Corners</div>
                                     </div>
                                     <p>To understand the essence of what makes a business presentable, it is important
                                         to emphasize craftsmanship and quality. No matter how skimpy the budget gets,
@@ -1045,10 +1127,10 @@
                                 <div class="benifit-card">
                                     <div class="flexx-wcu-col align-items-center   gap-2">
                                         <span class="wcu-icon">
-                                            <img decoding="async" src="assets/imgs/Easier Insurance Claim Process.png"
+                                            <img decoding="async" src="assets/imgs/Easier Insurance Claim Process.svg"
                                                 class="img-fluid" alt="Experience and Expertise">
                                         </span>
-                                        <div class="h4 m-0">Advanced Technology</div>
+                                        <div class="h3 m-0">Advanced Technology</div>
                                     </div>
                                     <p>The adoption of advanced software aids in effective mapping and determining
                                         resource allocation. This gives us and our client a reliable blueprint that no
@@ -1087,10 +1169,10 @@
                         <div class="benifit-card">
                             <div class="flexx-wcu-col align-items-center gap-2">
                                 <span class="wcu-icon">
-                                    <img decoding="async" src="assets/imgs/Material.png" class="img-fluid"
+                                    <img decoding="async" src="assets/imgs/Material.svg" class="img-fluid"
                                         alt="Client-Focused Approach">
                                 </span>
-                                <div class="h5 m-0">Material</div>
+                                <div class="h3 m-0">Material</div>
                             </div>
                             <p>We believe in delivering quality commercial construction services even if it means
                                 staking a business relationship. We source material from an unbiased contractor and
@@ -1102,10 +1184,10 @@
                         <div class="benifit-card">
                             <div class="flexx-wcu-col align-items-center gap-2">
                                 <span class="wcu-icon">
-                                    <img decoding="async" src="assets/imgs/Site Safety.png" class="img-fluid"
+                                    <img decoding="async" src="assets/imgs/Site Safety.svg" class="img-fluid"
                                         alt="Transparent Communication">
                                 </span>
-                                <div class="h5 m-0">Site Safety</div>
+                                <div class="h3 m-0">Site Safety</div>
                             </div>
                             <p>We boast our positive track record of zero accidents that reflects our commitment and
                                 strong vigilance over the site. The present laborers and engineers strictly equip
@@ -1116,10 +1198,10 @@
                         <div class="benifit-card">
                             <div class="flexx-wcu-col align-items-center gap-2">
                                 <span class="wcu-icon">
-                                    <img decoding="async" src="assets/imgs/Audit & Inspection.png"
+                                    <img decoding="async" src="assets/imgs/Audit & Inspection.svg"
                                         alt="Quality Workmanship" class="img-fluid">
                                 </span>
-                                <div class="h5 m-0">Audit & Inspection</div>
+                                <div class="h3 m-0">Audit & Inspection</div>
                             </div>
                             <p>To ensure our craftsmanship remains aligned with our benchmark and delivery standards, we
                                 conduct audits and inspections at every interval. Engineers and qualified architects
@@ -1132,10 +1214,10 @@
                         <div class="benifit-card">
                             <div class="flexx-wcu-col align-items-center gap-2">
                                 <span class="wcu-icon">
-                                    <img decoding="async" src="assets/imgs/Certifications.png" class="img-fluid"
+                                    <img decoding="async" src="assets/imgs/Certifications.svg" class="img-fluid"
                                         alt="Timely Execution">
                                 </span>
-                                <div class="h5 m-0">Certifications</div>
+                                <div class="h3 m-0">Certifications</div>
                             </div>
                             <p>Houseura holds all the necessary certifications to stay compliant, which brings assurance
                                 to our clients that our infrastructure isn’t just built right but built responsibly.
@@ -1151,9 +1233,6 @@
 
 
         <!-- client start -->
-
-
-        <!-- start logo -->
 
         <div class="bg-lighty ptb60">
 
@@ -1174,30 +1253,25 @@
                         <div class="slide-track gap-2   ">
 
                             <!-- Repeat same logos twice for infinite scroll -->
-                            <div class="slide"><img src="https://houseura.com/wp-content/uploads/2025/05/logo.svg" />
+                            <div class="slide"><img src="assets/imgs/austin.svg" />
                             </div>
-                            <div class="slide"><img src="https://houseura.com/wp-content/uploads/2025/05/logo.svg" />
+                            <div class="slide"><img src="assets/imgs/boston children.svg" />
                             </div>
-                            <div class="slide"><img src="https://houseura.com/wp-content/uploads/2025/05/logo.svg" />
+                            <div class="slide"><img src="assets/imgs/cdcr.svg" />
                             </div>
-                            <div class="slide"><img src="https://houseura.com/wp-content/uploads/2025/05/logo.svg" />
+                            <div class="slide"><img src="assets/imgs/Denver.svg" />
                             </div>
-                            <div class="slide"><img src="https://houseura.com/wp-content/uploads/2025/05/logo.svg" />
+                            <div class="slide"><img src="assets/imgs/flysfo.svg" />
                             </div>
-                            <div class="slide"><img src="https://houseura.com/wp-content/uploads/2025/05/logo.svg" />
+                            <div class="slide"><img src="assets/imgs/metro.svg" />
                             </div>
-
-                            <div class="slide"><img src="https://houseura.com/wp-content/uploads/2025/05/logo.svg" />
+                            <div class="slide"><img src="assets/imgs/port of seattle.svg" />
                             </div>
-                            <div class="slide"><img src="https://houseura.com/wp-content/uploads/2025/05/logo.svg" />
+                            <div class="slide"><img src="assets/imgs/uc san.svg" />
                             </div>
-                            <div class="slide"><img src="https://houseura.com/wp-content/uploads/2025/05/logo.svg" />
+                            <div class="slide"><img src="assets/imgs/uc san-1.svg" />
                             </div>
-                            <div class="slide"><img src="https://houseura.com/wp-content/uploads/2025/05/logo.svg" />
-                            </div>
-                            <div class="slide"><img src="https://houseura.com/wp-content/uploads/2025/05/logo.svg" />
-                            </div>
-                            <div class="slide"><img src="https://houseura.com/wp-content/uploads/2025/05/logo.svg" />
+                            <div class="slide"><img src="assets/imgs/wikimedia.svg" />
                             </div>
 
                         </div>
@@ -1208,8 +1282,6 @@
             </div>
         </div>
 
-        <!-- end logo -->
-
         <!-- client end -->
 
         <!-- recent project -->
@@ -1219,7 +1291,7 @@
                 <div class="col-lg-9">
                     <div class="small-heading">
                     </div>
-                    <div class="main-heading mb-0">Recent Residential Projects</div>
+                    <div class="h2 mb-0">Recent Residential Projects</div>
                 </div>
                 <div class="col-lg-3"><a class="primary-btn" href="#!">View All</a></div>
             </div>
@@ -1238,21 +1310,30 @@
                                         srcset="https://houseura.com/wp-content/uploads/2025/11/rambler-house-1.webp 800w, https://houseura.com/wp-content/uploads/2025/11/rambler-house-1-300x169.webp 300w, https://houseura.com/wp-content/uploads/2025/11/rambler-house-1-768x432.webp 768w"
                                         sizes="(max-width: 800px) 100vw, 800px"></a></div>
                             <div class="creative-crd-content">
-                                <a href="#!" class="ellipsis crd-title" aria-label="post-url">Custom House
-                                    Construction</a>
+                                <a href="#!" class="ellipsis crd-title" aria-label="post-url">
+                                    <h3>Willow Creek Modern Home — Austin, TX</h3>
+                                </a>
 
-                                <p>
-                                    Our client from Los Angeles wanted a custom house that would be out of the
-                                    textbook
+                               <div class="more">
+                                 <p class="mb-0 ">
+                                     “Houseura team delivered exactly what we imagined — a modern, energy-efficient home
                                     <span class="dots">...</span>
-                                    <span class="more">
-                                        design. Houseura was commissioned for this task, where we integrated a
-                                        modern
-                                        energy-efficient solution. The exterior aspect aligned with a natural
-                                        lighting
-                                        solution, which now stands as a testament.
-                                    </span>
-                                </p>
+                                    
+                                        with premium finishing. Communication was smooth throughout and every detail was taken seriously.” — Emily R., Homeowner
+                                        </p>
+
+                                        <ul class="project-list">
+                                    <li>3,200 sq. ft. modern two-story home</li>
+                                    <li>Open-concept living with floor-to-ceiling windows</li>
+                                    <li>Smart lighting, solar-ready rooftop, and insulated exterior panels</li>
+                                    <li>Landscaped backyard with wooden deck and pool</li>
+                                    </ui>
+                                        
+                                    
+
+                                    
+                                
+                               </div>
 
                                 <div class="readBtn" onclick="toggleMore(this)">
                                     <a href="#!" class="crd-btn">Read more<svg xmlns="http://www.w3.org/2000/svg"
@@ -1276,21 +1357,31 @@
                                         srcset="https://houseura.com/wp-content/uploads/2025/11/rambler-house-1.webp 800w, https://houseura.com/wp-content/uploads/2025/11/rambler-house-1-300x169.webp 300w, https://houseura.com/wp-content/uploads/2025/11/rambler-house-1-768x432.webp 768w"
                                         sizes="(max-width: 800px) 100vw, 800px"></a></div>
                             <div class="creative-crd-content">
-                                <a href="#!" class="ellipsis crd-title" aria-label="post-url">Custom House
-                                    Construction</a>
+                                <a href="#!" class="ellipsis crd-title" aria-label="post-url">
+                                    <h3>Oakridge Family Residence — Denver, CO</h3>
+                                </a>
 
-                                <p>
-                                    Our client from Los Angeles wanted a custom house that would be out of the
-                                    textbook
-                                    <span class="dots">...</span>
-                                    <span class="more">
-                                        design. Houseura was commissioned for this task, where we integrated a
-                                        modern
-                                        energy-efficient solution. The exterior aspect aligned with a natural
-                                        lighting
-                                        solution, which now stands as a testament.
-                                    </span>
-                                </p>
+                               <div class="more">
+                                 <p class="mb-0 ">
+                                      “From the foundation to the final walkthrough, the craftsmanship stood out.
+                                      <span class="dots">...</span> The job was delivered on time and within budget — highly recommended.” — Mark & Lila P., Homeowners
+                                        </p>
+
+                                        <ul class="project-list">
+                                    <li>2,850 sq. ft. single-family home</li>
+  <li>4 bedrooms, 3 bathrooms Dedicated workspace</li>
+  
+  <li>Energy-rated windows and High-efficiency HVAC</li>
+  
+  <li>Stone cladding exterior and Composite roofing</li>
+  
+                                    </ui>
+                                        
+                                    
+
+                                    
+                                
+                               </div>
 
                                 <div class="readBtn" onclick="toggleMore(this)">
                                     <a href="#!" class="crd-btn">Read more<svg xmlns="http://www.w3.org/2000/svg"
@@ -1314,21 +1405,30 @@
                                         srcset="https://houseura.com/wp-content/uploads/2025/11/rambler-house-1.webp 800w, https://houseura.com/wp-content/uploads/2025/11/rambler-house-1-300x169.webp 300w, https://houseura.com/wp-content/uploads/2025/11/rambler-house-1-768x432.webp 768w"
                                         sizes="(max-width: 800px) 100vw, 800px"></a></div>
                             <div class="creative-crd-content">
-                                <a href="#!" class="ellipsis crd-title" aria-label="post-url">Custom House
-                                    Construction</a>
+                                <a href="#!" class="ellipsis crd-title" aria-label="post-url">
+                                    <h3>Maple Heights Custom Build — Seattle, WA</h3>
+                                </a>
 
-                                <p>
-                                    Our client from Los Angeles wanted a custom house that would be out of the
-                                    textbook
+                               <div class="more">
+                                 <p class="mb-0 ">
+                                     “Professional service and a solid build quality. 
                                     <span class="dots">...</span>
-                                    <span class="more">
-                                        design. Houseura was commissioned for this task, where we integrated a
-                                        modern
-                                        energy-efficient solution. The exterior aspect aligned with a natural
-                                        lighting
-                                        solution, which now stands as a testament.
-                                    </span>
-                                </p>
+                                    
+                                        The custom additions and interior details exceeded expectations.” — Jonathan W., Homeowner
+                                        </p>
+
+                                        <ul class="project-list">
+                                    <li>3,600 sq. ft. luxury residential property</li>
+                                    <li>Custom kitchen with premium countertop and cabinetry</li>
+                                    <li>Rainwater harvesting and smart security integration</li>
+                                    <li>Private patio, fire pit area, and landscaped garden</li>
+                                    </ui>
+                                        
+                                    
+
+                                    
+                                
+                               </div>
 
                                 <div class="readBtn" onclick="toggleMore(this)">
                                     <a href="#!" class="crd-btn">Read more<svg xmlns="http://www.w3.org/2000/svg"
@@ -1340,7 +1440,7 @@
 
                             </div>
                         </div>
-                    </div>
+                    </div>  
 
                 </div>
 
@@ -1349,7 +1449,6 @@
 
         <!-- end recent project -->
 
-
         <!-- Inclusions & Exclusions -->
 
         <div class="bg-img">
@@ -1357,7 +1456,7 @@
 
                 <div class="bg-color-img mt-auto">
 
-                    <div class="container">
+                    
                         <div class="flex-col-sec-hd-center">
                             <h2 class="text-center">
                                 Inclusions &amp; Exclusions
@@ -1398,7 +1497,7 @@
                             </div>
                         </div>
 
-                    </div>
+                    
                 </div>
 
 
@@ -1412,146 +1511,189 @@
         <!-- end Inclusions & Exclusions -->
 
 
-        <!-- start tesimonaial -->
+         <!-- start tesimonaial -->
 
+     
         <section class="section">
 
             <div class="container">
                 <div class="flex-cl">
-                    <div class="small-heading">Testimonials</div>
+                    <!-- <div class="small-heading">Testimonials</div> -->
                     <div class="main-heading">Our Client's Experiences</div>
                 </div>
-                <div class="testimonial_slider">
+                <div class="steps-sec sec-gap">
+            <div class="container">
+            
+                <div class="swiper testimonials-slider custom-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-content">
+                                    <div class="testimonial-img">
+                                        <img src="assets/img/testimonial-img.png" alt="" class="img-fluid">
+                                    </div>
+                                    <p class="mb-0">“The experience and service provided by Houseura cannot be described in words. Usually, you would expect interference from the house owner to ensure everything is going perfectly, but that too was taken care of by Houseura, and I really didn't feel like supervising the entire process. I was amazed at how professionally the construction was carried out and was free from hassle. Totally worth the cost and more than that, just loving my living space.”
+                                    </p>
+                                </div>
+                                <div class="reviewer-info">
+                                    <div class="review-name">
+                                        <div class="card-heading">
+                                            Henry Jones
+                                        </div>
+                                        <!-- <p class="mb-0">Senior consultant</p> -->
+                                    </div>
+                                    <div class="review-rating flex align-center">
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <p class="mb-0">(4.7)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-content">
+                                    <div class="testimonial-img">
+                                        <img src="assets/img/testimonial-img.png" alt="" class="img-fluid">
+                                    </div>
+                                    <p class="mb-0">“Renovation done right! Our old house was desperately asking for repairs and upgrades, and we were really confused by the quotations from different agencies. Houseura had better reviews and an overall satisfaction rate, and we are glad to come across such a professional contractor. Everything was just on point, timely delivery, upgrades, and results we better than what we expected. Would surely recommend it to contact at least once to get a consultation.”</p>
+                                </div>
+                                <div class="reviewer-info">
+                                    <div class="review-name">
+                                        <div class="card-heading">
+                                            Amanda Miguel
+                                        </div>
+                                        <!-- <p class="mb-0">Senior consultant</p> -->
+                                    </div>
+                                    <div class="review-rating flex align-center">
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <p class="mb-0">(4.7)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-content">
+                                    <div class="testimonial-img">
+                                        <img src="assets/img/testimonial-img.png" alt="" class="img-fluid">
+                                    </div>
+                                    <p class="mb-0">“Economical yet best in quality, really happy with the renovation and subtle makeovers. I almost feel like I'm living inside a mansion with just top-class inclusion; the new flooring that fits perfectly with the paint and lighting is just complements it perfectly. Since day one of renovation, I barely had any problems while it was going on in front of my eyes. I can easily access the other rooms and utilities without any restrictions, truly a smooth residential construction service experience.</p>
+                                </div>
+                                <div class="reviewer-info">
+                                    <div class="review-name">
+                                        <div class="card-heading">
+                                            Alex Hailey
+                                        </div>
+                                        <p class="mb-0">Jesse Clay</p>
+                                    </div>
+                                    <div class="review-rating flex align-center">
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m12.392 5.291 4.469.683q.59.093.807.651.154.59-.249 1.024l-3.227 3.166.745 4.561q.093.59-.404.962-.496.341-1.024.062l-4.003-2.11-3.972 2.11q-.558.28-1.055-.062a1.02 1.02 0 0 1-.403-.962l.776-4.561-3.228-3.166q-.434-.434-.248-1.024.186-.559.776-.651L6.62 5.29l1.986-4.096q.31-.528.9-.559.621.031.9.559z"
+                                                fill="#8A7033"></path>
+                                        </svg>
+                                        <p class="mb-0">(4.7)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                    <div class="testimonial-items">
-                        <p class="mb-0">“Finding a business space is much more difficult compared to equipping your space. Ensuring that the construction fits as per your desired theme and practicality. Houseura understood our needs and provided us with an upgraded working space that was both practical and aligned with the brand's identity. And the best part was that ll of this was done under the desired amount of time without compromising quality. All the Inclusions and components that are installed are of high quality and managed with precision, allowing us to write such a thankful note for making our raw business space turn into something productive.”
-                        </p>
-                        <div class="rating">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                        </div>
-                        <div class="clients-name">
-                            <div>Cynthia </div>
-                            <!-- <small>Homeowner</small> -->
-                        </div>
+
                     </div>
-
-                    <div class="testimonial-items">
-                        <p class="mb-0">“Upgrading space for an enterprise has always been a challenge that hadn't been really addressed. I mean that is something I used to think before meeting Houseura and they did a marvelous job with our expansion unit through their commercial construction services. The designing, components, and resources that were fitted proves its worth and practicality. Compared to what we had earlier this new space enhances our productivity due to which our output snd results also get amplified.”
-                        </p>
-                        <div class="rating">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                        </div>
-                        <div class="clients-name">
-                            <div>Adam Pearce</div>
-                            <!-- <small> Vision Heights</small> -->
-                        </div>
-                    </div>
-                    <div class="testimonial-items">
-                        <p class="mb-0">“The remodeling allowed us to change the outlook of our old shop without hampering our business. It's quite rare to find such a construction agency that provides their services during off hours and cleans the waste by the morning so we could effectively commence our business. It barely felt like we were under construction and should actually keep the shop closed. Even though we couldn't be present there during the off hours the progress and quality of work that I got to witness didn't really made me feel like I should pay my attention to it."
-                        </p>
-                        <div class="rating">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15"
-                                fill="#f8bc24">
-                                <path
-                                    d="M316.9 18c-5.3-11-16.5-18-28.8-18s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329l104.2-103.1c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7l-143.7-21.2z">
-                                </path>
-                            </svg>
-                        </div>
-                        <div class="clients-name">
-                            <div>Ben Felix</div>
-                            <!-- <small> Financial Consultant</small> -->
-                        </div>
-                    </div>
-
-
+                    <div class="swiper-pagination"></div>
                 </div>
+
+            </div>
+
+        </div>
             </div>
 
         </section>
-
         <!-- end tesimonaial -->
+
 
         <div class="bg-img">
             <div class="container section ptb60">
@@ -1642,12 +1784,12 @@
                                 <td>Matt-finish, premium modular designs.</td>
                                 <td>Central AC, automated system, smart lighting, and premium fixtures.</td>
                             </tr>
-                            <!-- <tr>
+                            <tr>
                                 <th>Price</th>
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                            </tr> -->
+                            </tr>
 
                         </tbody>
                     </table>
@@ -1949,6 +2091,7 @@
 
 </body>
 
+
 <script src="https://lightcoral-giraffe-657488.hostingersite.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
     id="jquery-core-js"></script>
 <script src="https://lightcoral-giraffe-657488.hostingersite.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
@@ -1969,38 +2112,8 @@
     src="https://houseura.com/wp-content/themes/bwe-service/min/frontend/js/minified/scripts.min.986cb04cc6cd8d9c4beb.js"
     id="bwe-service-js"></script>
 
-<script>
-    function toggleMore(btn) {
-        const dots = btn.parentElement.querySelector(".dots");
-        const more = btn.parentElement.querySelector(".more");
-
-        if (dots.style.display === "none") {
-            dots.style.display = "inline";
-            more.style.display = "none";
-            btn.innerHTML = "Read more";
-        } else {
-            dots.style.display = "none";
-            more.style.display = "inline";
-            btn.innerHTML = "Read less";
-        }
-    }
-</script>
-
-<script>
-    const tabs = document.querySelectorAll(".info-tab");
-    const contents = document.querySelectorAll(".info-tab-content");
-
-    tabs.forEach(tab => {
-        tab.addEventListener("click", () => {
-            tabs.forEach(t => t.classList.remove("active"));
-            tab.classList.add("active");
-
-            contents.forEach(c => c.classList.remove("active"));
-            document.getElementById(tab.dataset.tab).classList.add("active");
-        });
-    });
-</script>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
 
 
 </html>
