@@ -402,6 +402,21 @@ tr:nth-child(even) {
     border-radius: 15px;
 }
 
+.project-card{
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+.project-card ul{
+    margin-block: 0px !important;
+}
+
+.project-card img{
+    height: 100%;
+    border-radius: 10px;
+}
+
+
 @media (max-width: 1024px) {
 
     .text-light {
@@ -420,6 +435,14 @@ tr:nth-child(even) {
     .img-2{
         display: none;
     }
+}
+
+.project-card img{
+    margin-bottom: 20px;
+}
+
+.creative-crd-content{
+    margin-top: 20px;
 }
 
 .testimonial-img{
